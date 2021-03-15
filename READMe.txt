@@ -12,7 +12,7 @@ Key Idea
 - Implemented " ford fulkerson algorithm " in c++ using BFS technique to find the augmented paths.
 - Later DFS is used to find the Min-cut vertices.
 
-### Purpose of source code
+### idea behind source code
 
 - There is only one file of source code that is " BaseballEliminator.cpp ".
 - This file contains 3 user-defined functions and a main function.
@@ -26,24 +26,3 @@ Key Idea
 - For the implementation purpose " Adjacency matrix " data structure has been used.
 - To traverse the matrix it takes O(n^2) where n is number of rows and column.
 - Overall time complexity would be O(E*V^3) where V is total vertices & E is total number of edges.
-
-### Testing and running the code
-
-- To test the code click on this link (https://www.onlinegdb.com/online_c++_compiler)
-- Then click the icon that is left side of run button in top left corner of the editor and create two new files named " input.txt " and " output.txt " (with the exact letter case)
-- Then you can see the two files are created that are present beside the main.cpp file icon.
-- Click on main.cpp
-- Delete the existing code, then copy and paste the code of BaseballElimininator.cpp (which is included in zip file).
-- go to input.txt , type the input with appropriate spacing as shown below
-  	4
-	Atlanta         83  71  8  0  1  6  1
-	Philadelphia    80  79  3  1  0  0  2
-	New_York        78  78  6  6  0  0  0
-	Montreal        77  82  3  1  2  0  0
-- click run button. In the console you can see the process has been completed.
-- Then go to output.txt where the output is printed.
-
-
-Abhinav sai sriram s
-2017MT10723
-
